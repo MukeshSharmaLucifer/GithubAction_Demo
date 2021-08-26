@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: mr-simthers-excellent/docker-build-push@v5
+    - uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: mukeshsharmalucifer/demo-app
         registry: docker.io
